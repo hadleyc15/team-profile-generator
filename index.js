@@ -1,8 +1,8 @@
 const fs = require("fs");
 const inquire = require("inquirer");
 const manager = require("./lib/manager");
-const intern = require("./lib/engineer");
-const engineer = require("./lib/intern");
+const engineer = require("./lib/engineer");
+const intern = require("./lib/intern");
 
 const questionList = [
     {

@@ -7,6 +7,7 @@ var generateHTML = {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="./assets/style.css"
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
             <title>Team Profile Generator</title>
@@ -16,14 +17,6 @@ var generateHTML = {
 
             <div class="container-fluid bg-danger text-white text-center py-4">
                 <h2>My Team</h2>
-            </div>
-
-            <div class="container">
-                <div class="row mt-2 justify-content-center" id="TeamCards">
-                
-                
-                
-                </div>
             </div>
 
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -41,7 +34,7 @@ var generateHTML = {
             `;
     },
     addManagerCard: function (data) {
-        return `<div class="container">
+        return `
         <div class="card m-2" style="width: 18rem;" id="TeamCards">
             <div class="card-header bg-primary">
                 <h2 class="card-title">${data.name}</h2>
@@ -54,11 +47,12 @@ var generateHTML = {
                     <li class="list-group-item">Office#: ${data.officeNumber}</li>
                 </ul>
             </div>
-         </div>`
+            </div>
+         `
     },
 
     addEngineerCard: function (data) {
-        return `<div class="container">
+        return `
         <div class="card m-2" style="width: 18rem;" id="TeamCards">
             <div class="card-header bg-primary">
                 <h2 class="card-title">${data.name}</h2>
@@ -71,11 +65,12 @@ var generateHTML = {
                     <li class="list-group-item">Github: <a href="github.com/ ${data.github}">github.com/${data.github}</a></li>
                 </ul>
             </div>
-         </div>`
+            </div>
+         `
     },
 
     addInternCard: function (data) {
-        return `<div class="container">
+        return `
         <div class="card m-2" style="width: 18rem;" id="TeamCards">
             <div class="card-header bg-primary">
                 <h2 class="card-title">${data.name}</h2>
@@ -88,7 +83,8 @@ var generateHTML = {
                     <li class="list-group-item">School: ${data.school}</li>
                 </ul>
             </div>
-         </div>`
+            </div>
+         `
     },
 
 }

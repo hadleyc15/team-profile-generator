@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateHTML = require("./template");
+const generateHTML = require("./output/template");
 const Manager = require("./lib/employee");
 const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
@@ -57,7 +57,18 @@ function newManager() {
             {
                 type: "input",
                 name: "email",
-                message: "What is the manager's email address?"
+                message: "What is the manager's email address?",
+                validate: function (email) {
+
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+        
+                    if (valid) {
+                        return true;
+                    } else {
+                        console.log("Please enter a valid email")
+                        return false;
+                    }
+                }
             },
             {
                 type: "input",
@@ -95,7 +106,18 @@ function newEngineer() {
             {
                 type: "input",
                 name: "email",
-                message: "Please enter the new engineer's ID email address."
+                message: "Please enter the new engineer's ID email address.",
+                validate: function (email) {
+
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+        
+                    if (valid) {
+                        return true;
+                    } else {
+                        console.log("Please enter a valid email")
+                        return false;
+                    }
+                }
             },
             {
                 type: "input",
@@ -133,7 +155,18 @@ function newIntern() {
             {
                 type: "input",
                 name: "email",
-                message: "Please enter the new intern's ID email address."
+                message: "Please enter the new intern's ID email address.",
+                validate: function (email) {
+
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+        
+                    if (valid) {
+                        return true;
+                    } else {
+                        console.log("Please enter a valid email")
+                        return false;
+                    }
+                }
             },
             {
                 type: "input",

@@ -75,4 +75,6 @@
 
   Demonstration of tests being run: https://drive.google.com/file/d/1dVYS_ukAQVz14S864DP1qZ92NRjagggb/view
 
-  Sample HTML generated using this application: <img src="./assets/images/Screenshot%20(68).png" />
+  Sample HTML generated using this application: https://github.com/hadleyc15/team-profile-generator/blob/master/assets/images/team-sample.html 
+  
+  <img src="./assets/images/Screenshot%20(68).png" />

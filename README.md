@@ -73,8 +73,4 @@
 
   Demonstartion of this project: https://drive.google.com/file/d/1GhNfgdVg8gtFmb-4UALSmGlWYmFXeLrY/view
 
-  <iframe src="https://drive.google.com/file/d/1GhNfgdVg8gtFmb-4UALSmGlWYmFXeLrY/preview" width="640" height="480"></iframe>
-
   Demonstration of tests being run: https://drive.google.com/file/d/1dVYS_ukAQVz14S864DP1qZ92NRjagggb/view
-
-  <iframe src="https://drive.google.com/file/d/1dVYS_ukAQVz14S864DP1qZ92NRjagggb/preview" width="640" height="480"></iframe>

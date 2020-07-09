@@ -75,4 +75,4 @@
 
   Demonstration of tests being run: https://drive.google.com/file/d/1dVYS_ukAQVz14S864DP1qZ92NRjagggb/view
 
-  Sample HTML generated using this application: <a href="./assets/team-sample.html">
+  Sample HTML generated using this application: <img src="./assets/images/Screenshot%20(68).png" />

@@ -74,3 +74,5 @@
   Demonstartion of this project: https://drive.google.com/file/d/1GhNfgdVg8gtFmb-4UALSmGlWYmFXeLrY/view
 
   Demonstration of tests being run: https://drive.google.com/file/d/1dVYS_ukAQVz14S864DP1qZ92NRjagggb/view
+
+  Sample HTML generated using this application: <a href="./assets/team-sample.html">
